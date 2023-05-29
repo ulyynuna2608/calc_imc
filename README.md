@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Projeto para calculo de imc (Idade e Massa Corporal)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
