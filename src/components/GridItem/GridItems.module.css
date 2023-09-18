@@ -18,3 +18,21 @@
     justify-content: center;
     align-items: center;
 }
+
+.gridTitle{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.gridInfo{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+.yourIMC {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}

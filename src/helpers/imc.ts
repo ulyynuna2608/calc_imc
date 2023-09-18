@@ -21,8 +21,9 @@ export const calculeiIMC = (altura:number, peso:number) => {
 
     for (let i in levels){
         if (imc >=  levels[i].imc[0] && imc <= levels[i].imc[1]){
-            levels[i].yourIMC = imc;
-            return levels[i];
+            let levelCopy: Level = { ...levels[i]};
+            levelCopy.yourIMC = imc;
+            return levelCopy;
         }
     }
     return null;
